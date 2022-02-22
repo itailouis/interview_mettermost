@@ -10,7 +10,6 @@ app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'test_metter_most'
 app.config['SECRET_KEY'] = 'test_metter_most'
-
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mettermost.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy(app)
@@ -225,5 +224,5 @@ def signup():
 
 
 if __name__ == '__main__':
-    print('welcome to metter most')
+    print('welcome to matter most')
     app.run()
