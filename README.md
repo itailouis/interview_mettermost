@@ -25,3 +25,12 @@ only Agents
 
 **api/vi/Home** 
  `only supervisor `
+
+
+example to generate user
+{
+    "email":"most@email.com",
+    "name":"metter",
+    "password":"mettermost",
+    "role":"AGENT"
+}
