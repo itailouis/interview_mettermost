@@ -1,3 +1,8 @@
+
+The application is a rest API service that authenticate users based on the token provided 
+ the user login will be provided with a token that can be used acros all other application within the Organisations 
+
+
 to install 
 python -m venv env
 .\env\Scripts\activate
