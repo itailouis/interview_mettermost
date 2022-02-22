@@ -4,7 +4,7 @@ pip install -r requirements.txt
 
 python app.py
 
- the application will genarate a database migraton using the model user class
+ the application will generate a database migrations using the model user class
  
  the application as 7 endpoint 
   api/vi/
